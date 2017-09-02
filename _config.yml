@@ -1,0 +1,21 @@
+# Site settings
+title: Chris Nady's Flatiron School Blog
+header-img: img/home-bg.png
+email: nady.christopher@gmail.com
+copyright_name: ChristopherJamesN
+description: > # this means to ignore newlines until "baseurl:"
+  My Fullstack Web Development Learning Journey
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  ChristopherJamesN
+learn_profile: ChristopherJamesN
+email_username: nady.christopher@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
