@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Building a Ruby Gem to Scrape Rotogrinders DFS Player Rankings"
-date:   2017-09-20 02:44:29 +0000
+date:   2017-09-19 22:44:30 -0400
 ---
 
 
-I recently published my first Ruby Gem. You can check it out [here](https://rubygems.org/gems/DFS-player-rankings) as well as the [GitHub repo](https://github.com/ChristopherJamesN/DFS-Player-Rankings-cli-app). 
+I recently published my first Ruby Gem. You can check it out [here](https://rubygems.org/gems/DFS-player-rankings) as well as the [GitHub repo here](https://github.com/ChristopherJamesN/DFS-Player-Rankings-cli-app). 
 
 The gem uses Nokogiri to scrape the top player rankings from Rotogrinders overall grinders rankings page and then provides the user with a command line interface to choose a set of players to drill down more deeply into. The CLI then displays that set of players and allows the user to select a specific player to get more information about that player.
 
