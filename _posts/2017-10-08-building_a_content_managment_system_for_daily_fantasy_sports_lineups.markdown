@@ -19,3 +19,5 @@ The application is built with two classes, a User class and a Lineup class. A us
 The User and Linuep classes both have controllers that inherit from the application controller, which itself inherits from Sinatra::Base. A logged_in? and current_user helper method are defined in the applications controller, and all create, read, update, and delete actions are defined in the User and Linuep controllers.
 
 Corresponding views are written with HTML and embedded Ruby, and Bootstrap is used to give some styling to the application.
+
+If you want to play around with the appliction locally, the Github repo can be found [here](https://github.com/ChristopherJamesN/sinatra-daily-fantasy-lineup-sharing).
