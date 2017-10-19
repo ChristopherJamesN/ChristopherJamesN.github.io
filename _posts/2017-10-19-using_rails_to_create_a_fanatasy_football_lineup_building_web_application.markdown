@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Using Rails to Create a Fanatasy Football Lineup Building Web Application"
-date:       2017-10-19 16:04:02 +0000
+date:       2017-10-19 12:04:03 -0400
 permalink:  using_rails_to_create_a_fanatasy_football_lineup_building_web_application
 ---
 
 
-I wanted to have a way to easily build daily fantasy sports lineups with my own projections, so I created a web application using the Ruby on Rails framework that allows the user to create lineups and players, with each player having a name, position, actual points, and projected points attributes. This allows the user to track how their players have performed compared to their projections.
+Building and tracking my daily fantasy sports lineups has historically been a chore, so I created a web application using the Ruby on Rails framework that allows the user to create lineups and players, with each player having a name, position, actual points, and projected points attributes. This allows the user to track how their players have performed compared to their projections.
 
 The application employs a model view controller framework. The devise gem is used to create a user model that allows the user to create a new account, sign in, and create, edit and delete fanatsy football lineups and players that belong to those lineups. The devise gem checks to ensure that users have entered a valid email address and have created a password that is at least 6 characters long.
 
