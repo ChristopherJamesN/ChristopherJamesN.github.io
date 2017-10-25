@@ -14,7 +14,7 @@ In addition, the OmniAuth gem is used to allow users to signup and signin with t
 
 Flash alerts are used to alert the user whenever they have taken an action that is not allowed within the application, such as entering an incorrect password, trying to signup with a username that already exists, or adding a lineups without a lineup name.
 
-The application is built with three classes, a User class, a Lineup class, and a Player class. A user has many lineups and a lineup belongs to a user. A player belongs to a lineup and a lineup has many players. A user has many players through lineups. Active Record is used to manage these associations as well as all other database interactions.
+The application is built with three classes, a User class, a Lineup class, and a Player class. A user has many lineups and a lineup belongs to a user. Players and lineups are connected via a join table, lineupsplayers, so a lineup has many players through lineupsplayers and a player has many lineups through lineupsplayers. Active Record is used to manage these associations as well as all other database interactions.
 
 The Linuep and Player classes both have controllers that inherit from the application controller, which itself inherits from ActionController::Base. All create, read, update, and delete actions are defined in the Linuep and Player controllers.
 
