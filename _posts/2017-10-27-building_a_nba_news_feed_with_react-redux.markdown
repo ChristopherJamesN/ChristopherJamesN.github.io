@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building a NBA News Feed with React-Redux"
-date:       2017-10-27 21:26:10 +0000
+date:       2017-10-27 17:26:10 -0400
 permalink:  building_a_nba_news_feed_with_react-redux
 ---
 
