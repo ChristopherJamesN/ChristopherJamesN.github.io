@@ -12,7 +12,7 @@ The process was relatively simple, thanks to the ease of use of the API. Within 
 
 I did have to reformat the name of each trail slightly, in order to get the best possible search results from Google, but other than that, the process was relatively painless, and each trail that is added to the database can be quickly mapped without having to add any additional code.
 
-The project demo is hosted on Heroku [here](https://katy-hiking-trails.herokuapp.com/), and the GitHub repo can be found [here](https://github.com/ChristopherJamesN/katy-hiking-trails).
+The project demo is hosted on fly.io [here](https://katy-hiking-trails.fly.dev/), and the GitHub repo can be found [here](https://github.com/ChristopherJamesN/katy-hiking-trails).
 
 Thanks for reading!
 
